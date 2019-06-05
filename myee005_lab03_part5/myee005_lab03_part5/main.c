@@ -39,7 +39,7 @@ int main(void)
 		tempD = tempD * 2;
 		tempD = SetBit(tempD, 0, GetBit(tempB, 0));
 		
-		if (tempD <= 69 && tempD >= 5) {
+		if (tempD <= 69 && tempD > 5) {
 			out_B = SetBit(out_B, 2, 1);
 		}
 		else if (tempD >= 70) {
